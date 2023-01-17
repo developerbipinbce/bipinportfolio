@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Bipin Kumar - I'm Dot Net Developer.</title>
+  <meta name="title" content="Bipin Kumar - I'm Dot Net/Node Js Developer.">
+  <meta name="description" content="This is a personal portfolio html template made by bipin">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/Blog.svg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-dark.svg" width="64" height="24" alt="Bipin home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="64" height="24" alt="Bipin home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">About</a>
+          </li>
+
+          <li>
+            <a href="#experience" class="navbar-link">Experience</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contact</a>
+          </li>
+          
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:bipin5981@email.com" class="contact-link">bipin5981@gmail.com</a>
+
+          <a href="tel:8083438299" class="contact-link">8083438299</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://twitter.com/bipinbce" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/bipinkumarbce" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://in.linkedin.com/bipinbce" class="social-link">
+              <ion-icon name="logo-linkedIn"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/bipinbce" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.jpg" width="150" height="50" alt="Bipin" class="w-100"
+              data-reveal="top">
+
+            <!-- <img src="./assets/images/hero-shape.svg" width="300" height="100" alt="10+ Projects Done" class="shape"
+              data-reveal="top" data-reveal-delay="0.25s"> -->
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+              I'm Software Engineer.
+            </h1>
+
+            <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+              Hello! I'm Bipin Kumar, a dot net/ node js developer based in Hyderabad India. I’m very passionate
+              about the work that I do. I have 4+ Years of experience in developing, deployment,
+              maintaining and production support. Ability to adopt to new environment and open
+              to learning new technologies in a team.
+            </p>
+
+            <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+              <a href="#projects" class="btn btn-primary">See My Works</a>
+
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about" id="about">
+        <div class="container">
+
+          <div class="wrapper">
+
+            <div data-reveal="left">
+              <h2 class="h2 section-title">What I Do?</h2>
+
+              <ul>
+                <li>
+                    <p>I develop web application with .Net and Javascript Technologies.</p>
+                </li>
+                <li>
+                  <p>I develop web api using C#, Entity-Framework, Dapper, Sql Server, MySQL, Postgrade databases.</p>
+                </li>
+                <li>
+                  <p>I develop web api using Node Js, ExpressJs, MongoDB.</p>
+                </li>
+                <li>
+                  <p>I develop Keno Grid in .Net Technologies.</p>
+                </li>
+                <li>
+                  <p>I develop web application using .Net MVC as well as Angular.</p>
+                </li>
+              </ul>
+
+            </div>
+
+            <ul class="progress-list" data-reveal="right">
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Development</p>
+
+                  <span class="span">100 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 100%; background-color: #c7b1dd"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Deployment</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Maintainance</p>
+
+                  <span class="span">80 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 80%; background-color: #b0d4c1"></div>
+                </div>
+
+              </li>
+
+              <li class="progress-item">
+
+                <div class="label-wrapper">
+                  <p>Support For Production Issue</p>
+
+                  <span class="span">70 %</span>
+                </div>
+
+                <div class="progress">
+                  <div class="progress-fill" style="width: 70%; background-color: #e3a6b6"></div>
+                </div>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Development</h3>
+
+                <p class="card-text">
+                   Developing Web Application, Web API using .Net Technology, Javascript(Node Js), Angular and various databases like SQL Server,
+                   MySQL, Postgrade and MongoDB. Cloud Services from Azure and AWS. 
+
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Deployment</h3>
+
+                <p class="card-text">
+                  Deploying and Using various Services of Azure, AWS and Wrangler(On-Promise Server). using CI/CD for deployment.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Maintainance</h3>
+
+                <p class="card-text">
+                  Maintaining the Exsiting application which is on production, working on new change request.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Support</h3>
+
+                <p class="card-text">
+                  Giving production for live application if any issue come and resolved in time bond period.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #Experience
+      -->
+
+      <section class="section experience" aria-labelledby="experience" id="experience">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Experience</h2>
+
+              <p class="section-title">
+                Check out some of my experience.
+              </p>
+            </div>
+          </div>
+
+           <br/>
+          <div class="grid-list-exp">
+
+            <div class="exp btranz">
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d16b86">Senior .Net Developer @ BTranz Software
+                    Solution</p>
+
+                  <h3 class="h3 card-title">June 2022 – Present @ Hyderbad, India</h3>
+
+                  <ul style="font-size: medium;">
+                    <li> Proficiency experience in developing web application using C-Sharp, .Net MVC, Kendo Grid and SQL Database </li>
+                      <li> Experience on working data Extraction from outlook and Logic APP. Azure File Share and On-Promise Database.</li>
+                      <li> Experience on working Automation of Data Extraction from server and exporting into database.</li>
+                  </ul>
+                </div>
+
+                
+
+              </div>
+            </div>
+            <div class="exp">
+              <div class="project-card project-card-4" style="background-color: #f1ecf1">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #c24b6b">Senior Software Engineer @ Mindtree Ltd</p>
+
+                  <h3 class="h3 card-title">Mar 2021 – June 2022 @ Banglore, India</h3>
+
+                  <ul style="font-size: medium; text-align: left;">
+                    <li> Proficiency experience in developing the application using CSharp,Web API, Dapper, Linq, .Net Core, Azure </li>
+                    <li> Proficiency knowledge on MSSQL Server database. </li>
+                    <li> Proficiency experience on change request of existing application by client.</li>
+                    <li> Proficiency experience to resolving production incidents.</li>
+                    <li> Professional expertise on Creating webjobs and ADF Pipeline with azure blob. </li>
+                    <li> Experienced on Export/Import Data through webjob and Azure blob. </li>
+                    <li> Experienced on handling the error and debugging.</li>
+                    <li> Experienced on solving exception of appinsight.</li>
+                    <li> Experienced on writing script for Database Migration.</li>
+                    <li> Experienced on fixing Sonar Issue.</li>
+                    <li> Experienced on working with multi environment and multi-tenant projects.</li>
+                    <li> Experienced on query optimization, monitoring query.</li>
+                    <li> Having knowledge on SOLID Principal and DESIGN PATTERNS </li>
+
+                
+              </ul>
+                </div>
+
+              </div>
+            </div>
+            <div class="exp">
+              <div class="project-card project-card-4" style="background-color: #f1eaea">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #d66a5c">Software Engineer @ Innomick Technology</p>
+
+                  <h3 class="h3 card-title">Oct 2018 – Mar 2021 @ Hyderabad, India</h3>
+
+                  <ul style="font-size: medium; text-align: left;">
+                    <li> Proficiency experience in developing the application using CSharp,Web API, Entity Framework, ADO.Net, 
+                      Linq,WCF with .Net and .Net core and having experience on ASP.Net MVC.</li>
+                    <li> Good experience in developing the applications using NodeJs,ExpressJs and Typescript.</li>
+                    <li> Proficiency knowledge on MSSQL Server and MySQL database.</li>
+                    <li> Capable of shouldering responsibility and using initiative to achieve successful completion of 
+                      multiple projects with competing deadlines without losing attention to detail.</li>
+                    <li> Professional expertise and learning is displayed through personal development to maintain up to date 
+                      knowledge on latest technologies.</li>
+                    <li> Experienced on handling the error and debugging.</li>
+                    <li> Experience with performance analysis, optimizations, debugging, reporting and support.</li>
+                    <li> Experience in obfuscate source code in .net and node.</li>
+                    <li> Experience in creating nuget package and utilize it in .net.</li>
+                    <li> Experience in using npm packages, custom middle-ware, request and response validations.</li>
+                    </ul>
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #projects
+      -->
+      <br/>
+      <section class="section projects" aria-labelledby="projects" id="projects">
+        <div class="container">
+
+          <div class="title-wrapper" data-reveal="top">
+
+            <div>
+              <h2 class="h2 section-title" id="project-label">Projects</h2>
+
+              <p class="section-title">
+                Check out some of my latest projects with creative ideas.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid-list-projects">
+
+            <div class="project full" style="background-color: #f5faf7;">
+              <div class="project-card project-card-3" style="background-color: #f5faf7;">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #7cb798">Web Application</p>
+
+                  <h3 class="section-title h3 card-title">P&G</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li style="list-style: disc;">
+                        Worked on a Module for Event Approval Flow, In that Functionalities a event will go 3 level of approval with 
+                        sending mail to agent, In this project my role as Dot Net Developer with .Net Core, C-Sharp, MSSQL and Dapper 
+                        technologies
+                      </li>
+                      <li style="list-style: disc;">
+                        Worked on a Module for Export/Import Data from/to excel through azure blob, In that Functionalities huge of
+                        required data to be exported as excel and imported in azure blob and data processing to DB via webjobs, 
+                        In this project my role as Dot Net Developer with .Net Core, C-Sharp, MSSQL, Dapper, Webjob, ADF and Azure 
+                        Blob technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Worked on a Module for Actualized and Zero outed for of Data, In that Functionalities a Data will actualized 
+                        and zero outed for a past data after uploading correct data in azure via webjobs, In this project my role 
+                        as Dot Net Developer with .Net Core, C-Sharp, MSSQL, Dapper,Webjob, ADF and Azure Blob technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Worked on a Module for Actualized and Zero outed of data for specific periods, In that Functionalities a 
+                        Data will actualized and zero outed for a period after uploading correct data in azure via webjobs and 
+                        SQL Script for Data Migration, In this project my role as Dot Net Developer with .Net Core, C-Sharp, MSSQL,
+                         Dapper,Webjob, ADF and Azure Blob technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Worked on a Module for Converting reporting category to reporting brand level of product and SQL Script 
+                        for Data Migration, In this project my role as Dot Net Developer with .Net Core, C-Sharp, MSSQL, Dapper,
+                         technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Worked on a Project separation from one solution to many solution in small-small micro-services and 
+                        migration activities when new deployment going, monitoring query and prod incidents.
+                      </li>
+                    </ul>
+                  </p>
+
+                  
+
+                </div>
+
+                
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #f8f5fb">
+              <div class="project-card project-card-4" style="background-color: #f8f5fb">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title section-title card-tag" style="color: #a07cc5">Mobile Application</p>
+
+                  <h3 class="section-title h3 card-title">Mausam</h3>
+
+                  <p class="card-text">
+                    Worked with IMD India for Mausam Application for getting information about weather,warning,radar etc. 
+                    created web api to get this all information and consume some IMD’s api in this application. In this project
+                    my role as Back-end Developer with C-Sharp, .NetWeb API, SQL Server, MS Flow.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #a07cc5">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #f1f5fd">
+              <div class="project-card project-card-4" style="background-color: #f1f5fd">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #3f78e0">Mobile Application</p>
+
+                  <h3 class="section-title h3 card-title">Meghdoot</h3>
+
+                  <p class="card-text">
+                    Worked with IMD India for Meghdoot Apllication for getting information about weather,warning, crop advisory 
+                    for farmers and crops details etc.create web api to get this all information and consume some IMD’s api
+                    in this application. In this project my role as Back-end Developer with C-Sharp, .NetWeb API, SQL Server,MS Flow.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #3f78e0">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #fcf4f6">
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #d16b86">Web Application</p>
+
+                  <h3 class="section-title h3 card-title">Supratour</h3>
+
+                  <p class="card-text">
+                    Developed a website for booking ticket of buses and trains for travelling, In this project my role as 
+                    Node Developer with Node and express technology,in this layer manage the request from clients and response 
+                    from .Net(WCF) Services. and cache for master data.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #d16b86">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #e6ebe8">
+              <div class="project-card project-card-4" style="background-color: #e6ebe8">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #4ae771">Web Application</p>
+
+                  <h3 class="section-title h3 card-title">Interest Rate Application</h3>
+
+                  <p class="card-text">
+                    Developed a website for insert/update interest rate for a bank. add/update new bank and give access to user 
+                    for a bank. Data will automated update for some bank by automation process.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #4ae771">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #f1ecf1">
+              <div class="project-card project-card-4" style="background-color: #f1ecf1">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #c24b6b">Mobile Application</p>
+
+                  <h3 class="section-title h3 card-title">Bavian</h3>
+
+                  <p class="card-text">
+                    Developed a web api for mobile application for selling milk from dairy shop as daily, weekly and routine 
+                    based days. in this project my role as Backend Developer with Node, Sequilize, and MySQL, AWS SNS.
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #c24b6b">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #f1eaea">
+              <div class="project-card project-card-4" style="background-color: #f1eaea">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #d66a5c">Nugdet Package</p>
+
+                  <h3 class="section-title h3 card-title">AWS SQS Nuget Package</h3>
+
+                  <p class="card-text">
+                    Developed a nuget package based on AWS SQS Service as utilise this nuget package to handling Amazon 
+                    Simple Queue Service for sending SMS or PUSH notification on mobile as common service with .Net Core, 
+                    AWS SQS, Window Service
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #d66a5c">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #f2f3f7">
+              <div class="project-card project-card-4" style="background-color: #f2f3f7">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #3f50b1">Mobile App and Back-office</p>
+
+                  <h3 class="section-title h3 card-title">LiveLoveRam Project</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li style="list-style: disc;">
+                        Developed a web api to consume in mobile application and back-office for employee uses like get ride from 
+                        colleagues, eat and meet somewhere, reading book suggestion, fun activity etc In this project my role as 
+                        Back-end with C-Sharp, .NetWeb API, SQL Server, .Net MVC Technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Developed a back-office to manage admin portal which data created in mobile application like get ride 
+                        from colleagues, eat and meet somewhere, reading book suggestion, fun activity etc In this project my 
+                        role as Front-end with C-Sharp, Kendo Grid, .Net MVC Technologies.
+                      </li>
+                    </ul>
+                    
+                  </p>
+
+                  <!-- <a href="#" class="btn-text" style="color: #3f50b1">
+                    <span class="span">See Project</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a> -->
+
+                </div>
+
+                <!-- <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/project-4.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                    class="w-100">
+                </figure> -->
+
+              </div>
+            </div>
+            <div class="project" style="background-color: #fcf4f6">
+              <div class="project-card project-card-4" style="background-color: #fcf4f6">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="section-title card-tag" style="color: #ca4065">Web Application</p>
+
+                  <h3 class="section-title h3 card-title">ONCF</h3>
+
+                  <p class="card-text">
+                    <ul>
+                      <li style="list-style: disc;">
+                        Developed a website for claims management for travelling for user, In this project my role as Back-end and 
+                        Node Developer with .Net(WCF), Node, Express, SQL Server technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Developed a website for back-office for management of claims, In this project my role as Back-end and 
+                        Node Developer with .Net(WCF), Node, Express, SQL Server technologies.
+                      </li>
+                      <li style="list-style: disc;">
+                        Developed a website for agent for management of claims like approving claims, verifying claims and reject, 
+                        In this project my role as Back-end and Node Developer with .Net(WCF), Node, Express, SQL Server technologies.
+                      </li>
+                    </ul>
+
+                    
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            
+            
+
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact" id="contact">
+        <div class="container">
+
+          <div class="contact-card">
+
+            <div class="contact-content" data-reveal="left">
+
+              <div class="card-icon">
+                <img src="./assets/images/icon-5.svg" width="44" height="44" loading="lazy" alt="envelop icon">
+              </div>
+
+              <h2 class="h2 section-title">If you like what you see, let's work together.</h2>
+
+              <p class="section-text">
+                I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from
+                this contact form and I will get back to you shortly.
+              </p>
+
+            </div>
+
+            <form  class="contact-form" data-reveal="right"
+                action="mailto:bipin5981@gmail.com"
+                method="POST"
+                enctype="multipart/form-data"
+                name="EmailForm">
+
+              <div class="input-wrapper">
+                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+              </div>
+
+              <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+              <button type="submit" class="btn btn-secondary">Send message</button>
+
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        ©2023 bipinbce. All rights reserved.
+      </p>
+
+      
+      <ul class="social-list">
+
+        <li>
+          <a href="https://twitter.com/bipinbce" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.facebook.com/bipinkumarbce" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://in.linkedin.com/bipinbce" class="social-link">
+            <ion-icon name="logo-linkedIn"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/bipinbce" class="social-link">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-youtube"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+      
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script>
+
+  </script>
+
+</body>
+
+</html>
